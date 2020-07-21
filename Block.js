@@ -16,7 +16,7 @@ class Block{
       }
      
       display(){
-        if(this.body.speed <6){
+        if(this.body.speed <5){
         var angle = this.body.angle;
         var pos= this.body.position;
         push();
